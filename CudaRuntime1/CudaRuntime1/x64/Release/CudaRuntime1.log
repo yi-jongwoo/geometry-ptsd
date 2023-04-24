@@ -1,0 +1,391 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\x64\Release\kernel.cu.obj "C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\cuda_runtime_api.h(11294): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(40): warning #177-D: variable "Gy" was declared but never referenced
+    		ll Gx=Hx-Hy,Gy=Hy-Hz,Gz=Hz-Hx;
+    		            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(41): warning #177-D: variable "Xa" was declared but never referenced
+    		ll Xa=1,Xb=-1,Xc=0; 
+    		   ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(41): warning #177-D: variable "Xb" was declared but never referenced
+    		ll Xa=1,Xb=-1,Xc=0; 
+    		        ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(41): warning #177-D: variable "Xc" was declared but never referenced
+    		ll Xa=1,Xb=-1,Xc=0; 
+    		              ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(42): warning #177-D: variable "Ya" was declared but never referenced
+    		ll Ya=0,Yb=1,Yc=-1; 
+    		   ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(42): warning #177-D: variable "Yb" was declared but never referenced
+    		ll Ya=0,Yb=1,Yc=-1; 
+    		        ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(42): warning #177-D: variable "Yc" was declared but never referenced
+    		ll Ya=0,Yb=1,Yc=-1; 
+    		             ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(43): warning #177-D: variable "Za" was declared but never referenced
+    		ll Za=-1,Zb=0,Zc=1; 
+    		   ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(43): warning #177-D: variable "Zb" was declared but never referenced
+    		ll Za=-1,Zb=0,Zc=1; 
+    		         ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu(43): warning #177-D: variable "Zc" was declared but never referenced
+    		ll Za=-1,Zb=0,Zc=1; 
+    		              ^
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(2572): warning #186-D: pointless comparison of unsigned integer with zero
+    		for(uint i=0 ; i<value_size-1 ; ++i)
+    		                ^
+            detected during:
+              instantiation of "__nv_bool ttmath::UInt<value_size>::IsOnlyTheHighestBitSet() const [with value_size=1ULL]" at line 119 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathint.h
+              instantiation of "ttmath::uint ttmath::Int<value_size>::ChangeSign() [with value_size=1ULL]" at line 173 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathint.h
+              instantiation of "ttmath::uint ttmath::Int<value_size>::Abs() [with value_size=1ULL]" at line 951 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Add(ttmath::Big<exp, man>, __nv_bool, __nv_bool) [with exp=1ULL, man=4ULL]" at line 988 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Sub(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5622 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator-(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 107 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1277): warning #186-D: pointless comparison of unsigned integer with zero
+    			for(uint i=0 ; i<ss_size*2 ; ++i)
+    			                ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              [ 4 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=0ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              [ 5 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1387): warning #186-D: pointless comparison of unsigned integer with zero
+    		for(i=first_size*2 ; i<first_size*3 ; ++i)
+    		                      ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=0ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              [ 5 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1414): warning #186-D: pointless comparison of unsigned integer with zero
+    			for( i=first_size*2 ; i<first_size*3 ; ++i )
+    			                       ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=0ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              [ 5 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1444): warning #186-D: pointless comparison of unsigned integer with zero
+    			for(i=z1_size ; i<first_size*3 ; ++i)
+    			                 ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=0ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              [ 5 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=0ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=0ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              [ 5 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=0ULL, result_size=2ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              [ 3 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1387): warning #186-D: pointless comparison of unsigned integer with zero
+    		for(i=first_size*2 ; i<first_size*3 ; ++i)
+    		                      ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=2ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              [ 3 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1414): warning #186-D: pointless comparison of unsigned integer with zero
+    			for( i=first_size*2 ; i<first_size*3 ; ++i )
+    			                       ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=2ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              [ 3 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1444): warning #186-D: pointless comparison of unsigned integer with zero
+    			for(i=z1_size ; i<first_size*3 ; ++i)
+    			                 ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=2ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              [ 3 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=0ULL, second_size=0ULL, result_size=2ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=1ULL]" at line 1356
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              [ 3 instantiation contexts not shown ]
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=4ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=3ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=3ULL, second_size=2ULL, result_size=8ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=1ULL, result_size=4ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=2ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=3ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=3ULL, second_size=2ULL, result_size=8ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=1ULL, result_size=6ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=3ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=3ULL, second_size=2ULL, result_size=8ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=1ULL, second_size=1ULL, result_size=6ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=3ULL]" at line 1355
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=3ULL, second_size=2ULL, result_size=8ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=3ULL, second_size=2ULL, result_size=8ULL]" at line 1302
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathuint.h(1349): warning #550-D: variable "c" was set but never used
+    	uint i, c, xc, yc;
+    	        ^
+            detected during:
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big3<first_size,second_size,result_size>(const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, first_size=2ULL, second_size=2ULL, result_size=8ULL]" at line 1313
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big2<ss_size>(const ttmath::uint *, const ttmath::uint *, ttmath::uint *) [with value_size=4ULL, ss_size=4ULL]" at line 1247
+              instantiation of "void ttmath::UInt<value_size>::Mul3Big(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &) [with value_size=4ULL]" at line 966
+              instantiation of "void ttmath::UInt<value_size>::MulBig(const ttmath::UInt<value_size> &, ttmath::UInt<<expression>> &, ttmath::uint) [with value_size=4ULL]" at line 1324 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::MulRef(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 1378 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::uint ttmath::Big<exp, man>::Mul(const ttmath::Big<exp, man> &, __nv_bool) [with exp=1ULL, man=4ULL]" at line 5657 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\ttmathbig.h
+              instantiation of "ttmath::Big<exp, man> ttmath::Big<exp, man>::operator*(const ttmath::Big<exp, man> &) const [with exp=1ULL, man=4ULL]" at line 18 of C:\Users\jw\Desktop\CudaRuntime1\CudaRuntime1\kernel.cu
+  
+  kernel.cu
+  tmpxft_000028b4_00000000-7_kernel.cudafe1.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include\driver_types.h(1327): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     C:\Users\jw\Desktop\CudaRuntime1\x64\Release\CudaRuntime1.lib 라이브러리 및 C:\Users\jw\Desktop\CudaRuntime1\x64\Release\CudaRuntime1.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  LINK : /LTCG를 지정했지만 코드를 생성할 필요가 없습니다. 명령줄에서 /LTCG를 제거하면 링커 성능이 향상됩니다.
+  CudaRuntime1.vcxproj -> C:\Users\jw\Desktop\CudaRuntime1\x64\Release\CudaRuntime1.exe
